@@ -2,29 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Título do Roteiro",
+    "title": "Adição de Vetores - Mesa de Forças",
     "section": "",
-    "text": "Apresente brevemente os conceitos físicos relacionados à atividade, destacando os princípios e fenômenos que serão investigados. Contextualize o experimento e sua relevância para a compreensão do conteúdo, podendo incluir as principais equações ou relações teóricas necessárias à análise dos resultados. O parágrafo seguinte mostra um exemplo.\nConforme Halliday; Resnick; Walker (2016), energia cinética é a energia associada ao movimento de um corpo. Quando uma força resultante realiza trabalho sobre um corpo, sua velocidade pode ser alterada e, consequentemente, sua energia cinética também se modifica. Essa relação é expressa pelo teorema trabalho–energia cinética, segundo o qual o trabalho realizado pela força resultante sobre um corpo é igual à variação de sua energia cinética. Para um corpo de massa (\\(m\\)) que se move com velocidade (\\(v\\)), a energia cinética é dada por\n\\[\nK = \\dfrac{1}{2} m v^2\n\\]\nUtilize imagens para complementar a explicação dos conceitos e procedimentos, priorizando esquemas, diagramas e fotografias que facilitem a compreensão do experimento. Toda imagem deve apresentar legenda e, quando necessário, identificar seus principais elementos. No texto, referencie a imagem utilizada.\nPor exemplo, a Figura 1 mostra o logo do Laboratório de Física.\n\n\n\nFigura 1: Logo do Labfis"
+    "text": "Conforme Halliday; Resnick; Walker (2016), a força é uma grandeza vetorial, ou seja, além de possuir intensidade, também apresenta direção e sentido. Quando duas forças \\(F_1\\) e \\(F_2\\) atuam sobre um mesmo ponto, o efeito combinado não é dado por uma simples soma algébrica, mas pela soma vetorial. A resultante \\(F_r\\) dessas duas forças pode ser obtida pela regra do paralelogramo, na qual os vetores \\(F_1\\) e \\(F_2\\) formam os lados adjacentes de um paralelogramo e a diagonal representa a resultante.\n\n\n\nFigura 1: Sistema de Forças em equilíbrio estático\n\n\n\n\n\n\nMatematicamente, para duas forças que formam um ângulo \\(\\theta\\), o módulo da resultante é dado por:\n\\[\\begin{equation}\n  F_r = \\sqrt{F_1^2 + F_2^2 + 2 F_1 F_2 \\cos \\theta}\\label{eq-paralelogramo}\n\\end{equation}\\]\nPara que o sistema esteja em equilíbrio, é necessário aplicar uma terceira força \\(F_3\\), de mesmo módulo que a resultante \\(F_r\\), porém de sentido oposto: \\(\\vec{F_3} = -\\vec{F_r}\\).\nEsse princípio tem diversas aplicações práticas, como no cálculo de forças em cabos de pontes e estruturas, na análise de forças que atuam sobre um corpo suspenso por fios em diferentes direções, e no equilíbrio de objetos submetidos a tensões em máquinas simples.\n\n\nFigura 2: Mesa de Forças.\n\n\n\n\n\n\n\n(a) Aparato experimental.\n\n\n\n\n\n\n\n\n\n\n\n(b) Posição de equilíbrio.\n\n\n\n\n\n\n\n\n\n\nO experimento da mesa de forças, ilustrado na Figura 2 permite compreender de forma visual e prática como a soma vetorial se manifesta no mundo real e como o conceito de equilíbrio está diretamente ligado ao princípio da adição de vetores."
   },
   {
     "objectID": "index.html#introdução",
     "href": "index.html#introdução",
-    "title": "Título do Roteiro",
+    "title": "Adição de Vetores - Mesa de Forças",
     "section": "",
-    "text": "Apresente brevemente os conceitos físicos relacionados à atividade, destacando os princípios e fenômenos que serão investigados. Contextualize o experimento e sua relevância para a compreensão do conteúdo, podendo incluir as principais equações ou relações teóricas necessárias à análise dos resultados. O parágrafo seguinte mostra um exemplo.\nConforme Halliday; Resnick; Walker (2016), energia cinética é a energia associada ao movimento de um corpo. Quando uma força resultante realiza trabalho sobre um corpo, sua velocidade pode ser alterada e, consequentemente, sua energia cinética também se modifica. Essa relação é expressa pelo teorema trabalho–energia cinética, segundo o qual o trabalho realizado pela força resultante sobre um corpo é igual à variação de sua energia cinética. Para um corpo de massa (\\(m\\)) que se move com velocidade (\\(v\\)), a energia cinética é dada por\n\\[\nK = \\dfrac{1}{2} m v^2\n\\]\nUtilize imagens para complementar a explicação dos conceitos e procedimentos, priorizando esquemas, diagramas e fotografias que facilitem a compreensão do experimento. Toda imagem deve apresentar legenda e, quando necessário, identificar seus principais elementos. No texto, referencie a imagem utilizada.\nPor exemplo, a Figura 1 mostra o logo do Laboratório de Física.\n\n\n\nFigura 1: Logo do Labfis"
+    "text": "Conforme Halliday; Resnick; Walker (2016), a força é uma grandeza vetorial, ou seja, além de possuir intensidade, também apresenta direção e sentido. Quando duas forças \\(F_1\\) e \\(F_2\\) atuam sobre um mesmo ponto, o efeito combinado não é dado por uma simples soma algébrica, mas pela soma vetorial. A resultante \\(F_r\\) dessas duas forças pode ser obtida pela regra do paralelogramo, na qual os vetores \\(F_1\\) e \\(F_2\\) formam os lados adjacentes de um paralelogramo e a diagonal representa a resultante.\n\n\n\nFigura 1: Sistema de Forças em equilíbrio estático\n\n\n\n\n\n\nMatematicamente, para duas forças que formam um ângulo \\(\\theta\\), o módulo da resultante é dado por:\n\\[\\begin{equation}\n  F_r = \\sqrt{F_1^2 + F_2^2 + 2 F_1 F_2 \\cos \\theta}\\label{eq-paralelogramo}\n\\end{equation}\\]\nPara que o sistema esteja em equilíbrio, é necessário aplicar uma terceira força \\(F_3\\), de mesmo módulo que a resultante \\(F_r\\), porém de sentido oposto: \\(\\vec{F_3} = -\\vec{F_r}\\).\nEsse princípio tem diversas aplicações práticas, como no cálculo de forças em cabos de pontes e estruturas, na análise de forças que atuam sobre um corpo suspenso por fios em diferentes direções, e no equilíbrio de objetos submetidos a tensões em máquinas simples.\n\n\nFigura 2: Mesa de Forças.\n\n\n\n\n\n\n\n(a) Aparato experimental.\n\n\n\n\n\n\n\n\n\n\n\n(b) Posição de equilíbrio.\n\n\n\n\n\n\n\n\n\n\nO experimento da mesa de forças, ilustrado na Figura 2 permite compreender de forma visual e prática como a soma vetorial se manifesta no mundo real e como o conceito de equilíbrio está diretamente ligado ao princípio da adição de vetores."
   },
   {
     "objectID": "index.html#objetivos",
     "href": "index.html#objetivos",
-    "title": "Título do Roteiro",
+    "title": "Adição de Vetores - Mesa de Forças",
     "section": "Objetivos",
-    "text": "Objetivos\nApresente de forma clara e objetiva o que se pretende alcançar com a atividade experimental, utilizando verbos de ação como\n\nInvestigar\nAnalisar\nDeterminar\nVerificar\nCompreender"
+    "text": "Objetivos\nApresente de forma clara e objetiva o que se pretende alcançar com a atividade experimental, utilizando verbos de ação como\n\nCompreender que a força é uma grandeza vetorial;\nAplicar a regra do paralelogramo para determinar a resultante de um par de forças;\nDeterminar experimentalmente o valor de uma força que equilibra duas outras forças;\nDeterminar graficamente a resultante de duas forças pela regra do paralelogramo."
   },
   {
     "objectID": "index.html#material-necessário",
     "href": "index.html#material-necessário",
-    "title": "Título do Roteiro",
+    "title": "Adição de Vetores - Mesa de Forças",
     "section": "Material necessário",
-    "text": "Material necessário\nListe todos os materiais, equipamentos e instrumentos que serão utilizados na atividade experimental, de forma organizada e objetiva.\n\nBalança;\nCronômetro;\nPaquímetro;\nTrilho de baixo atrito."
+    "text": "Material necessário\n\nMesa de forças composta por um transferidor de ângulos e base de fixação;\n03 polias móveis;\nConjunto de massas e suportes;\nFios."
+  },
+  {
+    "objectID": "index.html#referências",
+    "href": "index.html#referências",
+    "title": "Adição de Vetores - Mesa de Forças",
+    "section": "Referências",
+    "text": "Referências\n\n\nHALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física: Mecânica. 10. ed. Rio de Janeiro: LTC, 2016. v. 1"
   }
 ]

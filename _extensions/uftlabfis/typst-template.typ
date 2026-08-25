@@ -12,17 +12,30 @@
 #let secondary-color = uft-green
 
 // 📦 Caixa de destaque personalizada (pode ser chamada no documento)
-#let info-box(title: "Informação", content) = {
+// #let info-box(title: "Informação", content) = {
+//   set text(size: 10pt)
+//   block(
+//     fill: primary-color.transparentize(85%), 
+//     inset: 10pt, 
+//     radius: 3pt, 
+//     width: 100%,
+//     stroke: (left: (thickness: 4pt, paint: primary-color))
+//   )[
+//     #align(center)[#text(fill: primary-color, weight: "bold", size: 10pt)[#title]]
+//     #v(0.2cm)
+//     #content
+//   ]
+// }
+
+#let info-box(title, content) = {
   set text(size: 10pt)
   block(
-    fill: primary-color.transparentize(85%), 
-    inset: 10pt, 
-    radius: 3pt, 
-    width: 100%,
+    fill: primary-color.transparentize(80%), inset: 8pt, radius: 2pt, width: 100%,
     stroke: (left: (thickness: 4pt, paint: primary-color))
   )[
-    #align(center)[#text(fill: primary-color, weight: "bold", size: 10pt)[#title]]
-    #v(0.2cm)
+    #set align(center)
+    #text(fill: primary-color, weight: "semibold", size: 10pt)[*#title*]
+    
     #content
   ]
 }
