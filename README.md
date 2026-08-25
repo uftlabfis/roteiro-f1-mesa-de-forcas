@@ -1,6 +1,6 @@
 # Adição de Vetores — Mesa de Forças (LABFIS/UFT)
 
-> 🌐 **Acesse a versão web do roteiro:** [https://uftlabfis.github.io/uftlabfis-roteiro-adicao-vetores/](https://uftlabfis.github.io/uftlabfis-roteiro-adicao-vetores/)
+> 🌐 **Acesse a versão web do roteiro:** [https://uftlabfis.github.io/roteiro-f1-mesa-de-forcas/](https://uftlabfis.github.io/roteiro-f1-mesa-de-forcas/)
 
 Este repositório contém o código-fonte em **Quarto Markdown (`.qmd`)** do roteiro experimental da prática **"Adição de Vetores: Mesa de Forças"**, desenvolvida para as disciplinas de Física Experimental do **Laboratório de Física (LABFIS)** do Câmpus Universitário de Palmas, da Universidade Federal do Tocantins (UFT).
 

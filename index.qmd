@@ -177,10 +177,16 @@ Apresente de forma clara e objetiva o que se pretende alcançar com a atividade 
 + A análise gráfica permite concluir que a relação $arrow(F_3) = -arrow(F_r)$ é verdadeira? Explique as causas de possíveis erros.
 
 
+#show bibliography: it => {
+  show heading: none
+  it
+}
+
 #set heading(numbering: none)
 = Referências
 
 #bibliography("assets/references/references.bib", style: "assets/references/abnt.csl", title: none)
+
 
 
 #pagebreak()
