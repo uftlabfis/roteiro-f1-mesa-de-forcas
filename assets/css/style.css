@@ -1952,6 +1952,10 @@ section,
 --------------------------------------------------------------*/
 
 
+header {
+  text-align: left !important;
+}
+
 /* Centraliza o contêiner da figura, a imagem e a legenda na versão HTML */
 figure {
   text-align: center !important;
@@ -1994,6 +1998,76 @@ a {
 
 .quarto-title-meta-heading {
   color: #004A80;
+}
+
+/* Força a exibição da sidebar em telas pequenas */
+@media (max-width: 991.98px) {
+
+  body .page-columns {
+    display: grid !important;
+
+    grid-template-columns:
+      1.5em
+      minmax(0, 1fr)
+      1.5em !important;
+  }
+
+  #quarto-document-content {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  #quarto-margin-sidebar {
+    display: block !important;
+
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+
+    position: static !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    margin-top: 2rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  .quarto-title-meta-author {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    column-gap: 1.5rem !important;
+    row-gap: 0.25rem !important;
+  }
+
+  .quarto-title-meta-author > .quarto-title-meta-heading:nth-child(1) {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+  }
+
+  .quarto-title-meta-author > .quarto-title-meta-heading:nth-child(2) {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+  }
+
+  .quarto-title-meta-author > .quarto-title-meta-contents:nth-child(3) {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+  }
+
+  .quarto-title-meta-author > .quarto-title-meta-contents:nth-child(4) {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+  }
+
+  .quarto-float-fig {
+    align-items: center !important;
+  }
+
 }
 
 
